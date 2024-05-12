@@ -30,3 +30,4 @@ In order to remove this bias, I have taken the images of the darker skin tone(ge
 | Only fair skin images (approx 10k) |91.03%| 22.72% |
 | Both fair and dark skin images (approx 18k | 90.29% | 84.22% |
 
+The results, training graphs, and confusion matrix concerning all the datasets chosen can be found in the results folder of this project.
