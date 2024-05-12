@@ -24,3 +24,9 @@ Once I had the desired dataset available for both fair and dark skin tone images
 This project is about the multi-class classification of skin-disease dataset. The dataset has 9 diseases/classes that we have to predict. The aim of this project is to detect the bias in the machine learning models. Because our dataset contains only fair skin images. I have taken around 1000 images of each class thus having a total data of about 10k images of our dataset. The RESNET model is trained and is used to test the images to detect the type of skin-disease. The test data has a total accuracy of 91.03 % for fair skin images while as for the dark-skin,the test accuracy is 22.72 % for the same skin diseases. Thus making it clear that our model is biased to darker skin-tones.
 
 In order to remove this bias, I have taken the images of the darker skin tone(generated from the other project) and incorporated then in my dataset. I have added the darker images in each disease data. About 1000 fair skin and 1000 dark-skin images of each skin disease class was taken thus, the total input data is approx 18k. The same RESNET model is trained  for 50 epochs and the test accuracy of both the fair and dark skin tone images was calculated. The fair skin images had the total test accuracy of 90.29% for the fair skin tone images and 84.22% for the dark skin images. Hence, for the machine learning model to be un-biased, we need to train the model with all sort of data so that it can learn the task efficiently and effectively.
+
+| Model Trained on data | Test Accuracy on fair data | Test Accuracy on dark data |
+|----------|----------|----------|
+| Only fair skin images (approx 10k) |91.03%| 22.72% |
+| Both fair and dark skin images (approx 18k | 90.29% | 84.22% |
+
