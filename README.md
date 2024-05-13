@@ -6,14 +6,14 @@ There are number of ways defined by which we can mitigate the bias, the approach
 
 The obstacle that we had to do the above task is the unavailability of the dataset containing darker skin-tones. We had the images of the skin-disease that contain only the fair skin-toned images and those dataset was also very limited. In order to generate more dataset with darker skin tones and more in number, I have done another project in which I am using the computer vision techniques to change the skin tone of the images while keeping the texture of the images intact, which was important for our task because we only want the skin tone of the images to change while the diseases should remain the same. The script __init__ provided in the other project is used to change the colour of the skin tone. By giving the input images and the RGB value of the darker skin tone that we want in the results, we get the desired skin tone in the output images while keeping the disease area as the same. Following is the example of some of the input images and their output with darker skin tone.
 
-<img src="example1.png" width="300" alt = "alt text">
-<img src="example1-1.png" width="300" alt = "alt text">
+<img src="example_images/example1.png" width="300" alt = "alt text">
+<img src="example_images/example1-1.png" width="300" alt = "alt text">
 
-<img src="example83.png" width="300" alt = "alt text">
-<img src="example95.png" width="300" alt = "alt text">
+<img src="example_images/example83.png" width="300" alt = "alt text">
+<img src="example_images/example95.png" width="300" alt = "alt text">
 
-<img src="example142_1-1.png" width="300" alt = "alt text">
-<img src="example142_1.png" width="300" alt = "alt text">
+<img src="example_images/example142_1-1.png" width="300" alt = "alt text">
+<img src="example_images/example142_1.png" width="300" alt = "alt text">
 
 
 
