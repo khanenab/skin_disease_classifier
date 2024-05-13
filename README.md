@@ -17,7 +17,7 @@ The obstacle that we had to do the above task is the unavailability of the datas
 
 
 
-Once, I generated all the darker skin tone images from the original data, I used the code provided by the other student and used his technique of sliding window to generate more data from both fair and darker skin tone imags. The code of the other student can be found here. https://github.com/aequitas-aod/synthesizer_image/blob/main/generate_images.ipynb
+Once, I generated all the darker skin tone images from the original data, I used the code provided by the other student and used his technique of sliding window to generate more data from both fair and darker skin tone images. The code of the other student can be found here. https://github.com/aequitas-aod/synthesizer_image/blob/main/generate_images.ipynb
 
 Once I had the desired dataset available for both fair and dark skin tone images, I did the multi-class classification project defined in detail below.
 
